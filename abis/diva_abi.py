@@ -16,20 +16,36 @@ abi = '''[
   },
   {
     "inputs": [
-      { "internalType": "uint256", "name": "_poolId", "type": "uint256" }
+      {
+        "internalType": "uint256",
+        "name": "_poolId",
+        "type": "uint256"
+      }
     ],
     "name": "getPoolParameters",
     "outputs": [
       {
         "components": [
-          { "internalType": "uint256", "name": "floor", "type": "uint256" },
+          {
+            "internalType": "uint256",
+            "name": "floor",
+            "type": "uint256"
+          },
           {
             "internalType": "uint256",
             "name": "inflection",
             "type": "uint256"
           },
-          { "internalType": "uint256", "name": "cap", "type": "uint256" },
-          { "internalType": "uint256", "name": "gradient", "type": "uint256" },
+          {
+            "internalType": "uint256",
+            "name": "cap",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "gradient",
+            "type": "uint256"
+          },
           {
             "internalType": "uint256",
             "name": "collateralBalance",
@@ -40,7 +56,11 @@ abi = '''[
             "name": "finalReferenceValue",
             "type": "uint256"
           },
-          { "internalType": "uint256", "name": "capacity", "type": "uint256" },
+          {
+            "internalType": "uint256",
+            "name": "capacity",
+            "type": "uint256"
+          },
           {
             "internalType": "uint256",
             "name": "statusTimestamp",
@@ -51,15 +71,31 @@ abi = '''[
             "name": "shortToken",
             "type": "address"
           },
-          { "internalType": "uint96", "name": "payoutShort", "type": "uint96" },
-          { "internalType": "address", "name": "longToken", "type": "address" },
-          { "internalType": "uint96", "name": "payoutLong", "type": "uint96" },
+          {
+            "internalType": "uint96",
+            "name": "payoutShort",
+            "type": "uint96"
+          },
+          {
+            "internalType": "address",
+            "name": "longToken",
+            "type": "address"
+          },
+          {
+            "internalType": "uint96",
+            "name": "payoutLong",
+            "type": "uint96"
+          },
           {
             "internalType": "address",
             "name": "collateralToken",
             "type": "address"
           },
-          { "internalType": "uint96", "name": "expiryTime", "type": "uint96" },
+          {
+            "internalType": "uint96",
+            "name": "expiryTime",
+            "type": "uint96"
+          },
           {
             "internalType": "address",
             "name": "dataProvider",
