@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python web3 examples"
+version = "0.1.0"
+description = ""
+authors = ["Wlad"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dotenv = "^0.21.0"
+poetry-dotenv-plugin = "^0.1.0"
+web3 = "^5.29.0"
+termcolor = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
