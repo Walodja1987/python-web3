@@ -4,5 +4,5 @@ diva_contract_addresses = {
 "kovan": '0x69E0577cAd908D9098F36dfbC4Ec36ad09920F4b',
 "mumbai": '0x625aBcb0C7371d6691796E972089d75eD356523b',
 "polygon": '0x131b154c13c7F2Ac4A0cC7798389A90B536F19f0',
-"goerli": '0x8f138cfC5de71FCde7FdeCd87EAC6Aa6A536Bf85'
+"goerli": '0x659f8bF63Dce2548eB4D9b4BfF6883dddFde4848' # 22.11.2022
 }

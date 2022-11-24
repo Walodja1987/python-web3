@@ -13,15 +13,13 @@ RPC_URL = os.environ.get("RPC_" + NETWORK.upper())
 
 # Get web3 instance
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
+print(addresses.diva_contract_addresses[NETWORK])
 
 # Connect to DIVA
 diva_contract = w3.eth.contract(
-    address = addresses.diva_contract_addresses[NETWORK], abi=diva_abi.abi)
-
-# print(diva_contract.functions.__dict__)
+    address=addresses.diva_contract_addresses[NETWORK], abi=diva_abi.abi)
 
 if __name__ == "__main__":
-    pool_id = 300
-    # res = diva_contract.functions.getPoolParameters(pool_id).call()
-    # print(res[0])
-    getPoolParameters(pool_id, NETWORK, diva_contract)
+    pool_id = 1
+    res = getPoolParameters(pool_id, diva_contract)
+    print(res)
